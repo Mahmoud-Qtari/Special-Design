@@ -1,0 +1,418 @@
+<!-- 1- Create Landing Page -->
+<!-- 2- normalize css file -->
+<!-- 3- website backgroung from google -->
+<!-- 4- font from googleFont -->
+<!-- 5- font Awesome -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	
+		<meta charset = "utf-8">
+		<meta name = "description" content = "personal information about me using html">
+		<meta name="keywords" content="html5,css3,javaScript">
+		<meta name="author" content="Special Design by Mahmoud Qtari">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Special Design </title>
+		
+		<link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	</head>
+		
+        <!-- Start Setting box -->
+    
+            <div class="setting_box">
+                
+                <div class="togge_setting">
+                    
+                    <i class="fa fa-gear"></i>
+                    
+                </div>
+                
+                <div class="setting_container">
+                    
+                    <div class="option_box">
+                    
+                        <h4>Colors</h4>
+                        <ul class="color_list">
+                        
+                            <li class="active" data-color="#FF9800"></li>
+                            <li data-color="#8138c4"></li>
+                            <li data-color="#ea1111"></li>
+                            <li data-color="#64c4eb"></li>
+                            <li data-color="#aae335"></li>
+                            
+                        </ul>
+                    </div>
+                    
+                     <div class="option_box">
+                    
+                        <h4>Random Background</h4>
+                        
+                         <div class="random_background_box">
+                         
+                            <span class="yes" data-backgrounds="yes"> Yes </span>
+                            <span class="no active" data-backgrounds="no"> No </span>
+                             
+                         </div>
+                         
+                    </div>
+                      
+                    <div class="option_box">
+                    
+                        <h4>Show Bullets</h4>
+                        
+                         <div class="Bullets_option">
+                         
+                            <span class="yes active" data-bullets="show"> Yes </span>
+                            <span class="no" data-bullets="hid"> No </span>
+                             
+                         </div>
+                         
+                    </div>
+                    <button class="reset">Reset Options</button>
+                </div>
+    
+            </div>
+        <!-- End Setting box  -->
+    
+        <!-- start Navigation Bullets Design -->
+        
+        <div class="nav_bull">
+    
+            <div class="bull" data-section=".about_div">
+                
+                <div class="tooltip"> About Us </div>
+                
+            </div>
+            
+            <div class="bull" data-section=".skills">
+                
+                <div class="tooltip"> Our Skills </div>
+                
+            </div>
+            
+            <div class="bull" data-section=".galary_div">
+            
+                <div class="tooltip"> Our Gallary </div>
+                
+            </div>
+            
+            <div class="bull" data-section=".timeline">
+            
+                <div class="tooltip"> Time Line </div>
+                
+            </div>
+            
+            <div class="bull" data-section=".features">
+            
+                <div class="tooltip"> Features </div>
+                
+            </div>
+            
+            <div class="bull" data-section=".testimonials">
+            
+                <div class="tooltip"> Testimonials </div>
+                
+            </div>
+        </div>
+        <!-- end Navigation Bullets Design -->
+        <!-- Start Landing Page -->
+            
+            <div class="landing_page">
+                
+                <div class="overlay"></div>
+                
+                <div class="container">
+                
+                    <div class="header_area">
+                    
+                        <div class="logo">Special Design</div>
+                        
+                        <div class="links_container">
+                        
+                            <ul class="links">
+
+                                <li><a href="#" data-section=".about_div">About</a></li>
+                                <li><a href="#" data-section=".skills">Skills</a></li>
+                                <li><a href="#" data-section=".galary_div">Gallery</a></li>
+                                <li><a href="#" data-section=".timeline">Timeline</a></li>
+                                <li><a href="#" data-section=".features">Features</a></li>
+                                <li><a href="#" data-section=".testimonials" >Testimonials</a></li>
+
+                            </ul>
+                            <button class="toggle_minu">
+                            
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                
+                            </button>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="intro_text">
+                    
+                    <h1>We Are<span> Creative </span>Agent </h1>
+                    <p>we specialized in front end subjects,Android and IOS mobile appications, the number of it's employees about 1000, the company hopes to expand this number by have new skilled employees.</p>   
+                    
+                </div>
+                
+            </div>
+        <!-- End Landing Page -->
+        
+        <!-- Start About Us -->
+        
+        <div class="container">
+    
+                <div class ="about_div">
+
+                    <div class="info_div">
+
+                        <h2> About Us</h2>
+                        <p> Founded in 2018, Special Design is the destination for high quality, innovative and cost effective software development, professional services, and business process outsourcing services. Our highly trained engineers become an extension arm of clients, with high standards in mind that are guaranteed to satisfy even the biggest corporations. All of this is done while supporting our community and cooperating with local universities and startups. </p>
+                        
+                    </div>
+                    
+                    <div class="img_box">
+
+                        <img src="imgs/about.jpg" alt="About_Us" width="400px" height="300px">
+                        
+                    </div>
+
+                </div>
+            
+        </div>
+    
+        <!-- End About Us -->
+        
+        <!-- start our skills -->
+    
+    <div class="skills">
+    
+         <div class="container">
+        
+            <h2> Our Skills</h2>
+            <div class="skill_box">
+            
+                <div class="skill_name"> HTML </div>
+                <div class="skill_progress">
+                
+                    <span data-progress="85%"></span>
+                </div>
+            </div>
+             
+            <div class="skill_box">
+            
+                <div class="skill_name"> CSS </div>
+                <div class="skill_progress">
+                
+                    <span data-progress="75%" ></span>
+                </div>
+            </div>
+             
+             <div class="skill_box">
+            
+                <div class="skill_name"> JavaScript </div>
+                <div class="skill_progress">
+                
+                    <span data-progress="70%" ></span>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+        <!-- end our skills -->
+    
+        <!-- Start galary -->
+    
+        <div class="galary_div">
+        
+            <div class="container">
+                
+                <h2> Our Galary</h2>
+                <div class="imges_box">
+                
+                    <img src="imgs/1.jpg" alt="Image1" >
+                    <img src="imgs/2.jpg" alt="Image2" >
+                    <img src="imgs/3.jpg" alt="Image3" >
+                
+                </div>
+            </div>
+            
+        </div>
+    
+        <!-- End galary -->
+        
+        <!-- start time line-->
+        
+        <div class="timeline">
+    
+            <div class="container">
+            
+                <div class="timeline_coutent">
+                
+                    <div class="year">2018</div>
+                    <div class="left">
+                    
+                        <div class="left_content">
+                        
+                        <h3>Establishment of the company</h3>
+                        <p> This company was established at 2018, it is specialized in front end subjects,Android and IOS mobile appications, the number of it's employees about 1000, the company hopes to expand this number by have new skilled employees. </p>
+                        </div>
+                    </div>
+                    <div class="clear_fix"></div>
+                    <div class="rigth">
+                    
+                        <div class="rigth_content">
+                        
+                        <h3>First Project</h3>
+                        <p> We received this project, and we developed it to create a web page for Mada company. </p>
+                        </div>
+                    </div>
+                    <div class="clear_fix"></div>
+                    <div class="year">2019</div>
+                    <div class="left">
+                    
+                        <div class="left_content">
+                        
+                        <h3>Second Project</h3>
+                        <p> We received this project, and we developed it to create a web page for Hadara company. </p>
+                        </div>
+                    </div>
+                    <div class="clear_fix"></div>
+                    <div class="rigth">
+                    
+                        <div class="rigth_content">
+                        
+                        <h3>Third Project</h3>
+                        <p> We received this project, and we developed it to create a web page for Call u company. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end time line-->
+    
+        <!-- start Features Section -->
+        
+        <div class="features">
+            <h2>Our Features</h2>
+            <div class="container">
+                <div class="feat_box">
+                
+                    <img src="imgs/1.jpg" alt="img1">
+                    <h4>Web Development</h4>
+                    <p>We Create Proffisional Website Pages</p>
+                    
+                </div>
+                
+                <div class="feat_box">
+                
+                    <img src="imgs/android.jpg" alt="android">
+                    <h4>Android Mobile Applications</h4>
+                    <p>We Create Proffisional Android Mobile Applications</p>
+                    
+                </div>
+                
+                <div class="feat_box">
+                
+                    <img src="imgs/ios.jpg" alt="ios">
+                    <h4>IOS Mobile Applications</h4>
+                    <p>We Create Proffisional ios Mobile Applications</p>
+                    
+                </div> 
+                <div class="clear_fix"></div>
+            </div>
+        </div>
+        <!-- end Features Section -->
+    
+        <!-- start Testimonials -->
+    
+        <div class="testimonials">
+            <div class="container">
+                
+                <h2>Testimonials</h2>
+                <div class="ts_box">
+                    <p>Accurate, fast, successful and experienced customer service</p>
+                    <div class="person_info">
+                    
+                        <img src="imgs/mahmoud.jpg" alt="mahmoud_khudir">
+                        <h4>Mahmoud Khudir</h4>
+                        <p>CO at Axsos Company</p>
+                    </div>
+                </div>
+                
+                <div class="ts_box">
+                    <p>I wish you more success and development</p>
+                    <div class="person_info">
+                    
+                        <img src="imgs/abdallah.jpg" alt="bdallah_tabbal">
+                        <h4>Abdallah Tabbal</h4>
+                        <p>CO at Hadara Company</p>
+                    </div>
+                </div>
+                
+                <div class="ts_box">
+                    <p>Very pleased to work with this company, good and fast work</p>
+                    <div class="person_info">
+                    
+                        <img src="imgs/mohammed.jpg" alt="mohammed_ahmad">
+                        <h4>Mohammed Ahmad</h4>
+                        <p>CO at Mada Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clear_fix"></div>
+        </div>
+        <!-- end Testimonials -->
+    
+        <!-- start contact us -->
+        
+            <div class="contact">
+                <div class="content_overlap"></div>
+                <div class="container">
+                
+                    <h2>Contact Us</h2>
+                    <form action="">
+                    
+                        <div class="left">
+                            
+                            <input type="text" placeholder="Your Name" name="username">
+                            <input type="text" placeholder="Your Phone" name="phone">
+                            <input type="email" placeholder="Your Email" name="email">
+                            <input type="text" placeholder="Subject" name="Subject">
+                            
+                        </div>
+                        
+                        <div class="right">
+                        
+                                <textarea name="message" placeholder="Your Message"></textarea>
+                                <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        <!-- end contact us -->
+    
+        <!-- start footer -->
+    
+        <div class="footer_div"> Created by Mahmoud Qtari</div>
+        <!-- end footer -->
+    
+		<script src = "master.js"> </script>
+	<body>
+		
+	</body>
+
+</html>
